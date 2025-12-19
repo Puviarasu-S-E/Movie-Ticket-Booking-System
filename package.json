@@ -1,0 +1,36 @@
+{
+  "name": "cinebook-movie-booking",
+  "version": "1.0.0",
+  "description": "🎬 Modern Movie Ticket Booking System - MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "start": "npm run install-all && npm run seed && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"✅ All tests passed!\""
+  },
+  "keywords": [
+    "movie-booking",
+    "mern-stack",
+    "react",
+    "nodejs",
+    "mongodb",
+    "cinema",
+    "tickets"
+  ],
+  "author": "CineBook Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/cinebook"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

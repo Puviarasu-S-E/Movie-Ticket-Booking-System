@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#667eea" />
+  <meta name="description" content="Fast Movie Ticket Booking" />
+  <title>🎬 CineBook</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;margin:0;background:#667eea}
+    .loading{position:fixed;top:0;left:0;width:100%;height:100%;background:#667eea;display:flex;align-items:center;justify-content:center;z-index:9999;color:white}
+  </style>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    window.addEventListener('load', () => {
+      const loading = document.getElementById('loading');
+      if (loading) loading.remove();
+    });
+  </script>
+</body>
+</html>
