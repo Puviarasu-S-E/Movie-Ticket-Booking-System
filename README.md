@@ -2,7 +2,7 @@
 
 A complete movie ticket booking system similar to BookMyShow, built with the MERN stack (MongoDB, Express.js, React, Node.js).
 
-## 🎬 Features
+##  Features
 
 ### User Features
 - **Authentication & Authorization**
@@ -53,7 +53,7 @@ A complete movie ticket booking system similar to BookMyShow, built with the MER
 - bcrypt for password hashing
 - CORS enabled
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 MTB System/
@@ -81,7 +81,7 @@ MTB System/
     └── package.json
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -141,7 +141,7 @@ REACT_APP_API_URL=http://localhost:5000/api
 npm start
 ```
 
-## 📊 Database Models
+##  Database Models
 
 ### User
 - name, email, password, phone, role
@@ -166,7 +166,7 @@ npm start
 - totalAmount, convenienceFee, taxes, finalAmount
 - paymentMethod, paymentStatus, bookingStatus
 
-## 🔐 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -197,7 +197,7 @@ npm start
 - `GET /api/bookings/:id` - Get booking by ID
 - `PUT /api/bookings/:id/cancel` - Cancel booking
 
-## 🎨 UI Components
+##  UI Components
 
 ### Common Components
 - LoadingSpinner
@@ -212,7 +212,7 @@ npm start
 - SeatMap
 - PaymentMethods
 
-## 🔧 Key Features Implementation
+##  Key Features Implementation
 
 ### Seat Selection
 - Interactive seat map with color coding
@@ -232,7 +232,7 @@ npm start
 - Booking cancellation (time-based rules)
 - Email/SMS notifications (simulation)
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend Deployment
 1. Set up MongoDB Atlas or use local MongoDB
@@ -244,7 +244,7 @@ npm start
 2. Deploy to Netlify, Vercel, or similar platform
 3. Update API URL in environment variables
 
-## 🧪 Testing
+##  Testing
 
 ### Sample Data
 The seed script creates:
@@ -257,20 +257,20 @@ The seed script creates:
 - Admin: admin@moviebooking.com / admin123
 - Regular users can be created via registration
 
-## 📱 Responsive Design
+##  Responsive Design
 - Mobile-first approach
 - Responsive grid layouts
 - Touch-friendly seat selection
 - Optimized for all screen sizes
 
-## 🔒 Security Features
+##  Security Features
 - JWT token authentication
 - Password hashing with bcrypt
 - Protected routes (frontend & backend)
 - Input validation and sanitization
 - CORS configuration
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 - Real payment gateway integration
 - Email/SMS notifications
 - Movie recommendations
@@ -279,13 +279,5 @@ The seed script creates:
 - Multi-language support
 - Push notifications
 - Advanced admin analytics
-
-## 📄 License
-This project is created for educational purposes and portfolio showcase.
-
-## 👨‍💻 Author
-Created as a MERN Stack project for college final-year submission and portfolio showcase.
-
----
 
 **Note**: This is a simulation of a movie booking system. Payment processing is simulated and no real transactions are processed.
