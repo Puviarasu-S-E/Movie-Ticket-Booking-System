@@ -35,7 +35,7 @@ A complete movie ticket booking system similar to BookMyShow, built with the MER
 - View all bookings
 - Seat pricing configuration
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React 18
